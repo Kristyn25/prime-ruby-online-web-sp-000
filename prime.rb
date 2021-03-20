@@ -8,7 +8,7 @@
 def prime_number(num)
   if(2..n-1).none? {|divisor| num % divisor == 0}
     true
-  else 
+  else
     false
   end
 end
