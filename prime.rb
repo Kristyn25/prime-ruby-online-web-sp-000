@@ -6,9 +6,5 @@
 #end
 
 def prime_number(num)
-  if (2..n-1).none? {|divisor| num % divisor == 0}
-    true
-  else
-    false
-  end
+  (2..n-1).none? {|divisor| num % divisor == 0}
 end
