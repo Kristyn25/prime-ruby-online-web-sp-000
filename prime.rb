@@ -10,7 +10,7 @@
 def prime_number(num)
   if num <= 1 || num == 1 || num == 0
     puts false
-  elsif 
+  elsif
     (2..num-1).each do |i|
       if value % i == 0
         puts false
