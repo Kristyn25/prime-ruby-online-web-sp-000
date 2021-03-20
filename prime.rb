@@ -12,4 +12,3 @@ def prime_number(num)
     false
   end
 end
-
