@@ -8,9 +8,9 @@
 #end
 
 def prime?(value)
-  if value <= 1 || value == 1 || value == 0
-    return false
-  elsif
+  #if value <= 1 || value == 1 || value == 0
+    #return false
+  if
     (2..value - 1).each do |i|
       if value % i == 0
         return false
