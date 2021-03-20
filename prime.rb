@@ -7,13 +7,13 @@
 #  end
 #end
 
-def prime_number(num)
-  if num <= 1 || num == 1 || num == 0
-    puts false
+def prime?(value)
+  if value <= 1 || value == 1 || value == 0
+    return false
   elsif
-    (2..num-1).each do |i|
+    (2..value - 1).each do |i|
       if value % i == 0
-        puts false
+        return false
       end
     end
   end
