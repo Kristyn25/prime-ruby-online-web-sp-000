@@ -5,10 +5,14 @@
 #  end
 #end
 
+#def prime_number(num)
+#  if(num).prime? {|divisor| n % divisor == 0}
+#    true
+#  else
+#    false
+#  end
+#end
+
 def prime_number(num)
-  if(num).prime? {|divisor| n % divisor == 0}
-    true
-  else
-    false
-  end
+  puts (num).prime?
 end
