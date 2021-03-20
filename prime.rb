@@ -12,3 +12,5 @@
 #    false
 #  end
 #end
+
+(num).prime?
