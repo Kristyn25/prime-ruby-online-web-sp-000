@@ -13,5 +13,3 @@ def prime_number(num)
   end
 end
 
-def prime? (num)
-  if 
